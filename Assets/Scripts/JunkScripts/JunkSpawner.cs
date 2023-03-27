@@ -5,7 +5,7 @@ public class JunkSpawner : Spawner
 {
     private static JunkSpawner instance;
     public static JunkSpawner Instance { get => instance; }
-    public static string Bullet1 = "Junk_1";
+    public static string Junk1 = "Junk_1";
     protected override void Awake()
     {
         base.Awake();
