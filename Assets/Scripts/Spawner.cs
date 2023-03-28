@@ -8,7 +8,7 @@ public abstract class Spawner : ThanhMonoBehaviour
     [SerializeField] protected Transform Holder;
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjs;
-    // Update is called once per frame
+ 
 
     protected override void LoadComponent()
     {

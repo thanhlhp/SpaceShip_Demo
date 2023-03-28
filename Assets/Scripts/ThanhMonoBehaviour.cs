@@ -21,4 +21,8 @@ public class ThanhMonoBehaviour : MonoBehaviour
     {
 
     }
+    protected virtual void OnEnable()
+    {
+
+    }
 }
